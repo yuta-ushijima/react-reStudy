@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMeaages = (props) => {
+export const ColorfulMessage = (props) => {
   const { color, children } = props;
   const contentStyle = {
     color,
@@ -8,5 +8,3 @@ const ColorfulMeaages = (props) => {
   };
   return <p style={contentStyle}>{children}</p>;
 };
-
-export default ColorfulMeaages;
